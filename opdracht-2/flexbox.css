@@ -1,3 +1,20 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+
+.one{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two{
+    display: flex;
+
+}
+
+.three{
+    display: flex;
+
+}
