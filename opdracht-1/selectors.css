@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 /* ======================================================
    OEFENEN MET CSS SELECTORS
 ========================================================= */
@@ -40,9 +42,21 @@ input[type=submit] {
 
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
-
+input:focus {
+    outline: none !important;
+    border-color: blue;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus {
+    outline: none !important;
+    border-color: blue;
+    box-shadow: 0 0 10px #719ECE;
+}
 
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bree Serif', serif;;
+}
 
 
