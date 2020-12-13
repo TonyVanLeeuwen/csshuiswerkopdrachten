@@ -25,6 +25,7 @@ form {
 form label {
     margin: 10px 0;
     width: 200px;
+    align-content: space-evenly;
 }
 
 article {
