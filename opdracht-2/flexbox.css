@@ -36,3 +36,17 @@ li {
     flex: 0 1 auto; /* Default */
     list-style-type: none;
 }
+
+.four{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
